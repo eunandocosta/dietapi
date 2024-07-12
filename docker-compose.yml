@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: chuck
+      MYSQL_DATABASE: dietas
+    volumes:
+      - db_data:/var/lib/mysql
+    ports:
+      - "3308:3306"  # altere esta linha
+
+  app:
+    build: .
+    command: ./wait-for-it.sh db:3306 -- flask run --host=0.0.0.0 --port=5001
+    volumes:
+      - .:/app
+    ports:
+      - "5001:5001"
+    depends_on:
+      - db
+
+volumes:
+  db_data:

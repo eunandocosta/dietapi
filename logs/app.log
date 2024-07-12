@@ -1,0 +1,5 @@
+2024-07-11 22:52:52,360 INFO: 172.24.0.1 - - [11/Jul/2024 22:52:52] "GET /dieta?firebase_uuid=V5nmLXsJlJRC5lvs53TxOnFPvPv1 HTTP/1.1" 200 - [in /usr/local/lib/python3.10/site-packages/werkzeug/_internal.py:187]
+2024-07-11 22:56:00,533 INFO: Dieta encontrada para firebase_uuid V5nmLXsJlJRC5lvs53TxOnFPvPv1 [in /app/app.py:106]
+2024-07-11 22:56:00,537 INFO: 172.24.0.1 - - [11/Jul/2024 22:56:00] "GET /dieta?firebase_uuid=V5nmLXsJlJRC5lvs53TxOnFPvPv1 HTTP/1.1" 200 - [in /usr/local/lib/python3.10/site-packages/werkzeug/_internal.py:187]
+2024-07-11 22:56:00,546 INFO: Dieta encontrada para firebase_uuid V5nmLXsJlJRC5lvs53TxOnFPvPv1 [in /app/app.py:106]
+2024-07-11 22:56:00,552 INFO: 172.24.0.1 - - [11/Jul/2024 22:56:00] "GET /dieta?firebase_uuid=V5nmLXsJlJRC5lvs53TxOnFPvPv1 HTTP/1.1" 200 - [in /usr/local/lib/python3.10/site-packages/werkzeug/_internal.py:187]
