@@ -29,7 +29,7 @@ Esta aplicação é uma API RESTful construída com Flask para gerenciar dietas,
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/eunandocosta/db_taco.git
+git clone [https://github.com/eunandocosta/db_taco.git](https://github.com/eunandocosta/dietapi)
 cd db_taco
 ```
 
